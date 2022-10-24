@@ -1,0 +1,216 @@
+* {
+
+    font-family: 'Montserrat',  sans-serif;
+    font-style: #464646;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.cabecalho {
+
+    background-color:#EAF2FD ;
+    padding: 10px;
+
+}
+
+.lista-cabecalho {
+
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    
+
+}
+
+.link-itens-cabecalho {
+
+    padding: 2rem 2rem 0 2rem;
+    color:#464646 ;
+    font-size: 1rem;
+}
+
+.link-itens-cabecalho:hover {
+
+    font-weight: bold;
+
+}
+
+.caixa-principal{
+
+margin-top: 8%;
+
+}
+.textos {
+
+    margin-left: 5%;
+    display: inline-block;
+    width: 80%;
+}
+
+.titulo {
+
+    font-size: 52px;
+    width: 60%;
+    display: inline-block;
+    color:#464646 ;
+}
+
+.descricao {
+
+    font-size: 22px;
+    width: 60%;
+    display: inline-block;
+    color:#464646 ;
+    
+}
+
+.acessos-pessoais {
+    display:flex;
+    
+
+}
+
+.itens-acessos-pessoais {
+    margin-top: 2%;
+   padding-right: 1%;
+   display: inline-block;
+
+}
+
+
+
+.links-acessos-pessoais {
+
+    color:#464646 ;
+    font-weight: bold;
+}
+
+.links-acessos-pessoais:active {
+
+    color: green;
+
+}
+
+.links-acessos-pessoais:hover {
+
+    font-size:20px;
+
+
+}
+
+.foto {
+
+    display: inline-block;
+    position: relative;
+    left: 65%;
+    bottom: 200px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.biografia {
+    width: 100%;
+    color:#464646 ;
+    background-color:#EAF2FD;
+    padding: 20px; 
+}
+
+.titulo-sobre-mim {
+    margin-left: 5%; 
+    font-size: 3rem;
+    margin-bottom: 1%;
+    color:#464646 ;
+}
+
+.texto {
+    margin-left: 5%;
+    font-size: 1.5rem;
+    width: 80%;
+    padding: 50px;
+}
+ 
+
+
+.titulo-skills, .titulo-hobbies,.titulo-formacao {
+
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 5%;
+    color: #464646;
+    
+}
+.skills{
+    
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: auto;
+    margin-top: 2%;
+    margin-left: 15%;
+    
+   
+   
+}
+
+
+
+.javascript {
+
+    grid-template-columns: 1/1;
+    grid-template-rows: 1/1;
+    
+}
+
+.html {
+grid-template-columns: 2/2;
+
+
+}
+
+.css {
+
+    grid-template-columns: 3/3;
+    
+}
+
+.caixa-hobbies {
+    align-items: center;
+    
+}
+
+.cards {
+    
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-left: 0%;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.titulo-formacao {
+
+    background-color: #EAF2FD;
+    padding-top: 2%;
+
+}
+
+.formacao {
+
+    background-color: #EAF2FD;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.unoesc, .alura {
+
+    width: 368px;
+    height: 286px;
+    border-radius: 8px;
+}
+
+
+

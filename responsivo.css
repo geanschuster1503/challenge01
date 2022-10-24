@@ -1,0 +1,131 @@
+@media screen and (max-width:468px) {
+
+
+    .lista-cabecalho {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        font-weight: 200;
+        
+    }
+    .link-itens-cabecalho:hover {
+      font-weight: bold;
+
+    }
+
+   .itens-cabecalho {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border-width: 100%;
+    text-align: center;
+
+   }
+
+  .apresentacao {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }
+
+   
+
+   .titulo {
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+
+   }
+
+   .descricao {
+    text-align: center;
+    width:100%;
+    font-size: 20px;
+   }
+
+   .acessos-pessoais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+   }
+
+   .itens-acessos-pessoais {
+
+    padding: 10px;
+    border-bottom: 2px solid white;
+    width: 100%;
+    text-align: center;
+   }
+
+   .imagem {
+    display: inline-block;
+    position: relative;
+    right: 35%;
+    margin-top: 55%;
+    
+   }
+
+   .texto {
+
+    
+    display: inline;
+    text-align: left;
+   
+   }
+
+  .bografia {
+
+    text-align: center;
+
+  }
+ 
+   .skills, .cards, .formacao{
+
+    display: flex;
+    flex-direction: column;
+    
+   
+
+   }
+
+    .cards {
+
+    align-items: center;
+
+   }
+
+
+   .skills {
+
+    align-items: center;
+    margin-right:10% ;
+
+   }
+
+   .javascript, .html, .css, .musica, .serie, .cozinhar{
+
+   padding: 10px 0px;
+   display: inline-block;
+   
+
+   }
+   
+   .titulo-formacao {
+
+    font-size:25px ;
+
+   }
+
+   .unoesc, .alura {
+
+    width: 300px;
+    padding: 0% 10% 5% 0%;
+
+   }
+
+}
